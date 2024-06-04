@@ -49,7 +49,7 @@ def data_extract():
         humidity = children[3].text
         pressure = children[4].text
 
-        result = {
+        data_result = {
             'time': header,
             'temp': temp,
             'location': location,
@@ -61,7 +61,7 @@ def data_extract():
             'pressure': pressure,
         }
 
-        return result
+        return data_result
 
     else:
         return None
