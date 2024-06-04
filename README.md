@@ -8,6 +8,8 @@ This package used BeautifulSoup4 and Requests to generate JSON output that'll be
 
 ## How to Run
 ```
+import requests
+from bs4 import BeautifulSoup
 import hamiltoncurrentweather as hct
 
 if __name__ == '__main__':
