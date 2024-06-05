@@ -80,6 +80,7 @@ def show_data(data_result):
 
 if __name__ == '__main__':
     print('main app')
+    print(f'description: {description}')
 
     result = data_extract()
     show_data(result)
