@@ -6,7 +6,7 @@ class CurrentWeather:
 
     def __init__(self, url):
         # define variable
-        self.description = 'Getting Information about current weather in hamilton, new zealand'
+        self.description = 'Getting Information about current weather in new zealand cities'
         self.data_result = None
         self.link = url
 
