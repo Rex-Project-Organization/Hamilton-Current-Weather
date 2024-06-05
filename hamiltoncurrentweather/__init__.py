@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
+description = 'Getting Information about current weather in hamilton, new zealand'
+
 
 def data_extract():
     """
