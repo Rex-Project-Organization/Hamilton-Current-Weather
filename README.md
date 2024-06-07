@@ -11,10 +11,10 @@ This package used BeautifulSoup4 and Requests to generate JSON output that'll be
 import hamiltoncurrentweather as hct
 
 if __name__ == '__main__':
+    hamilton_weather = hct.CurrentWeather('https://www.weatherwatch.co.nz/forecasts/Hamilton')
     print('main app')
-
-    result = hct.data_extract()
-    hct.show_data(result)
+    print(f'description: {hamilton_weather.description}')
+    hamilton_weather.run()
 ```
 
 # Author
